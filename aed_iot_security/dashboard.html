@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AED IoT Security Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <h2>AED Device Trust Dashboard</h2>
+
+    <table border="1">
+        <tr>
+            <th>Device</th>
+            <th>Trust Score</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>AED01</td>
+            <td>92</td>
+            <td>SAFE</td>
+        </tr>
+
+        <tr>
+            <td>AED02</td>
+            <td>85</td>
+            <td>NORMAL</td>
+        </tr>
+
+        <tr>
+            <td>AED03</td>
+            <td>10</td>
+            <td>RISK</td>
+        </tr>
+
+    </table>
+
+    <h3>Trust Score Chart</h3>
+
+    <canvas id="trustChart" width="400" height="200"></canvas>
+
+    <script>
+
+        const ctx = document.getElementById('trustChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['AED01', 'AED02', 'AED03'],
+                datasets: [{
+                    label: 'Trust Score',
+                    data: [92, 85, 10]
+                }]
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

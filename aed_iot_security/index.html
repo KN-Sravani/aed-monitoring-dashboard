@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AED IoT Security Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-particles" id="particles"></div>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo-icon" aria-hidden="true"></div>
+                <h2>AED SecOps</h2>
+            </div>
+            <nav aria-label="Main Navigation">
+                <ul id="nav-list" role="tablist">
+                    <li class="active" data-target="view-dashboard" role="presentation">
+                        <a href="#" role="tab" aria-selected="true" aria-controls="view-dashboard">Dashboard</a>
+                    </li>
+                    <li data-target="view-map" role="presentation">
+                        <a href="#" role="tab" aria-selected="false" aria-controls="view-map">Live Map</a>
+                    </li>
+                    <li data-target="view-devices" role="presentation">
+                        <a href="#" role="tab" aria-selected="false" aria-controls="view-devices">Devices Control</a>
+                    </li>
+                    <li data-target="view-alerts" role="presentation">
+                        <a href="#" role="tab" aria-selected="false" aria-controls="view-alerts">Threat Alerts</a>
+                    </li>
+                    <li data-target="view-settings" role="presentation">
+                        <a href="#" role="tab" aria-selected="false" aria-controls="view-settings">System Settings</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="system-status" aria-live="polite">
+                <span class="status-dot"></span>
+                <span class="status-text">System Active</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-titles">
+                    <h1 id="page-title">Network Overview</h1>
+                    <p id="page-subtitle">Real-time trust analysis for AED devices</p>
+                </div>
+                <div class="user-profile">
+                    <button class="avatar" aria-label="User Profile Menu">Admin</button>
+                </div>
+            </header>
+
+            <!-- VIEW: Dashboard -->
+            <div id="view-dashboard" class="content-view active-view">
+                <section class="metrics-grid">
+                    <div class="metric-card glass-panel hover-glow">
+                        <h3>Total Devices</h3>
+                        <div class="value" id="total-devices">0</div>
+                        <p class="subtitle">Monitored AEDs</p>
+                    </div>
+                    <div class="metric-card glass-panel hover-glow">
+                        <h3>Average Trust Score</h3>
+                        <div class="value" id="avg-trust">0<span class="unit">%</span></div>
+                        <p class="subtitle">Across network</p>
+                    </div>
+                    <div class="metric-card glass-panel alert-card hover-glow danger-pulse">
+                        <h3>Critical Alerts</h3>
+                        <div class="value danger" id="critical-alerts">0</div>
+                        <p class="subtitle">Require immediate attention</p>
+                    </div>
+                </section>
+
+                <div class="dashboard-layout">
+                    <!-- Chart Area -->
+                    <div class="chart-container glass-panel hover-glow">
+                        <h3>Device Trust Distribution</h3>
+                        <div class="canvas-wrapper">
+                            <canvas id="trustChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Device Roster Table -->
+                    <div class="table-container glass-panel hover-glow">
+                        <h3>Recent Device Activity</h3>
+                        <div class="table-scroll">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Device ID</th>
+                                        <th>Trust Score</th>
+                                        <th>Status</th>
+                                        <th>Active Risks</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="device-table-body">
+                                    <tr><td colspan="4" class="loading">Loading device data...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Dashboard View -->
+
+            <!-- VIEW: Live Map -->
+            <div id="view-map" class="content-view" style="display: none;" role="tabpanel" aria-labelledby="Live Map View">
+                <div class="map-wrapper glass-panel hover-glow">
+                    <div id="map-container" style="height: 600px; width: 100%; border-radius: 8px; z-index: 1;"></div>
+                </div>
+            </div>
+
+            <!-- VIEW: Devices Control -->
+            <div id="view-devices" class="content-view" style="display: none;" role="tabpanel" aria-labelledby="Devices Control View">
+                <div class="action-bar glass-panel hover-glow">
+                    <input type="text" placeholder="Search devices by ID..." class="styled-input" aria-label="Search devices">
+                    <button class="styled-button primary" aria-label="Add New Device">Add New Device</button>
+                    <button class="styled-button secondary" onclick="refreshData()" aria-label="Refresh Device Status">Ping All Devices</button>
+                </div>
+                <div class="devices-grid" id="detailed-devices-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- VIEW: Threat Alerts -->
+            <div id="view-alerts" class="content-view" style="display: none;">
+                <div class="alerts-timeline glass-panel hover-glow" id="alerts-timeline-container">
+                    <!-- Populated by JS -->
+                    <p class="text-secondary">Scanning historical logs for intelligence...</p>
+                </div>
+            </div>
+
+            <!-- VIEW: System Settings -->
+            <div id="view-settings" class="content-view" style="display: none;" role="tabpanel" aria-labelledby="System Settings View">
+                <div class="settings-panel glass-panel hover-glow">
+                    <h3>Visual Output</h3>
+                    <div class="setting-item">
+                        <label for="toggle-particles">Enable Particle Background</label>
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-particles" checked aria-label="Toggle animated particle background">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label for="toggle-theme">Cyberpunk Accent Theme</label>
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-theme" aria-label="Toggle high contrast cyberpunk theme">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    
+                    <h3 style="margin-top: 2rem;">Network Scans</h3>
+                    <div class="setting-item">
+                        <label for="refresh-rate">Auto-refresh Data</label>
+                        <select class="styled-select" id="refresh-rate" aria-label="Select automatic data refresh rate">
+                            <option>Every 5 seconds</option>
+                            <option selected>Every 30 seconds</option>
+                            <option>Manual only</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <button class="styled-button danger">Wipe Cache & Restart</button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

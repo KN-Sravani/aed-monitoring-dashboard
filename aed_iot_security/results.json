@@ -1,0 +1,1800 @@
+[
+    {
+        "device": "AED06",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (121 MB)"
+        ],
+        "latitude": 40.72035230603887,
+        "longitude": -74.00544428880616,
+        "last_used": "2026-02-12T14:35:31.394492",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 55.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.70151769852487,
+        "longitude": -74.0182948667191,
+        "last_used": "2026-02-11T21:44:31.394528",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 16.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (131 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.714491749385076,
+        "longitude": -74.00151130744156,
+        "last_used": "2026-02-22T23:59:31.394539",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.715798300081325,
+        "longitude": -74.01598626569356,
+        "last_used": "2026-03-07T05:21:31.394547",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 27.4,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (51 MB)"
+        ],
+        "latitude": 40.71771276964992,
+        "longitude": -73.9932788789095,
+        "last_used": "2026-02-19T12:16:31.394554",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED12",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72486957530765,
+        "longitude": -74.01820442339827,
+        "last_used": "2026-03-04T11:14:31.394561",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.700835655619144,
+        "longitude": -73.99840136216743,
+        "last_used": "2026-02-15T08:18:31.394568",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED08",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (137 MB)"
+        ],
+        "latitude": 40.69790278003938,
+        "longitude": -73.99384160712466,
+        "last_used": "2026-02-16T07:03:31.394574",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED04",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (111 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 4)"
+        ],
+        "latitude": 40.727361931828405,
+        "longitude": -74.00056533833173,
+        "last_used": "2026-02-26T00:11:31.394581",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 0)"
+        ],
+        "latitude": 40.720843314052786,
+        "longitude": -74.00926048744472,
+        "last_used": "2026-02-23T13:26:31.394587",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 60.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (91 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 5)"
+        ],
+        "latitude": 40.70547099632895,
+        "longitude": -74.0186917086819,
+        "last_used": "2026-02-27T23:46:31.394594",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED14",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (65 MB)"
+        ],
+        "latitude": 40.71088368737272,
+        "longitude": -73.99568467532562,
+        "last_used": "2026-02-23T10:38:31.394600",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED13",
+        "trust_score": 23.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (136 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 4)"
+        ],
+        "latitude": 40.701822290201385,
+        "longitude": -73.99462192501113,
+        "last_used": "2026-03-04T10:29:31.394607",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED12",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (130 MB)"
+        ],
+        "latitude": 40.71893287931174,
+        "longitude": -74.01976459356166,
+        "last_used": "2026-03-08T08:05:31.394613",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 83.5,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 5)"
+        ],
+        "latitude": 40.700273781894325,
+        "longitude": -73.99155476158457,
+        "last_used": "2026-02-27T13:23:31.394619",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED10",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (91 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.721444015109554,
+        "longitude": -74.0209521396459,
+        "last_used": "2026-02-19T15:26:31.394626",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED13",
+        "trust_score": 67.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.70991624870603,
+        "longitude": -73.999096769915,
+        "last_used": "2026-03-05T10:17:31.394632",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED08",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (126 MB)"
+        ],
+        "latitude": 40.7001517833666,
+        "longitude": -74.01499141709505,
+        "last_used": "2026-02-12T04:04:31.394641",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71948118117234,
+        "longitude": -74.01096378968577,
+        "last_used": "2026-02-13T02:42:31.394648",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (134 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 0)"
+        ],
+        "latitude": 40.71264237071388,
+        "longitude": -74.01811961508947,
+        "last_used": "2026-02-16T16:34:31.394654",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED10",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.70521314193408,
+        "longitude": -74.0010286451934,
+        "last_used": "2026-02-22T21:17:31.394661",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 7.6,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (95 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.71776773378767,
+        "longitude": -73.99223057479439,
+        "last_used": "2026-03-01T12:13:31.394667",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED06",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (131 MB)"
+        ],
+        "latitude": 40.72592524727192,
+        "longitude": -74.01797934340267,
+        "last_used": "2026-02-18T09:44:31.394674",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED10",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (63 MB)"
+        ],
+        "latitude": 40.70148547613558,
+        "longitude": -74.01646742966342,
+        "last_used": "2026-03-09T01:46:31.394680",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71358262606626,
+        "longitude": -74.01683449832133,
+        "last_used": "2026-03-05T05:49:31.394687",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.70619691978463,
+        "longitude": -73.99424670454927,
+        "last_used": "2026-03-07T16:45:31.394693",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED13",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.724535434259494,
+        "longitude": -73.99223820644244,
+        "last_used": "2026-03-06T17:33:31.394700",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED07",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (52 MB)"
+        ],
+        "latitude": 40.707370236288405,
+        "longitude": -73.99861919339254,
+        "last_used": "2026-03-11T22:21:31.394706",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED08",
+        "trust_score": 27.4,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (109 MB)"
+        ],
+        "latitude": 40.71719467237671,
+        "longitude": -73.99155845598862,
+        "last_used": "2026-02-10T18:39:31.394713",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED06",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (115 MB)"
+        ],
+        "latitude": 40.72548713280382,
+        "longitude": -74.00735909126412,
+        "last_used": "2026-02-16T08:18:31.394719",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 60.4,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.718001650550846,
+        "longitude": -73.9982686830482,
+        "last_used": "2026-02-11T02:03:31.394725",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED09",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.698540960607865,
+        "longitude": -74.02062714918202,
+        "last_used": "2026-03-04T02:54:31.394732",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (130 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 4)"
+        ],
+        "latitude": 40.72318864685357,
+        "longitude": -74.00633163872334,
+        "last_used": "2026-02-13T16:15:31.394738",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (79 MB)"
+        ],
+        "latitude": 40.71438578940834,
+        "longitude": -74.0106784118762,
+        "last_used": "2026-03-07T00:55:31.394747",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (143 MB)"
+        ],
+        "latitude": 40.72539841756548,
+        "longitude": -74.00377120339321,
+        "last_used": "2026-03-05T08:00:31.394754",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (60 MB)"
+        ],
+        "latitude": 40.72193261554769,
+        "longitude": -74.00917737217283,
+        "last_used": "2026-02-18T14:45:31.394760",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 47.2,
+        "risk": [
+            "Network Anomaly: High Data Transfer (72 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 0)"
+        ],
+        "latitude": 40.723141753030866,
+        "longitude": -73.99165428492488,
+        "last_used": "2026-02-12T16:23:31.394767",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED06",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (144 MB)"
+        ],
+        "latitude": 40.72254948481408,
+        "longitude": -73.9986734387204,
+        "last_used": "2026-02-19T00:26:31.394773",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED07",
+        "trust_score": 70.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.70797480890018,
+        "longitude": -74.01660974797218,
+        "last_used": "2026-02-24T15:50:31.394779",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.702655816703206,
+        "longitude": -74.01626004464936,
+        "last_used": "2026-03-08T19:28:31.394786",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (132 MB)"
+        ],
+        "latitude": 40.71221664412792,
+        "longitude": -74.00577400682954,
+        "last_used": "2026-02-27T05:24:31.394792",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED14",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (131 MB)"
+        ],
+        "latitude": 40.7029366434244,
+        "longitude": -74.01230986427946,
+        "last_used": "2026-03-06T23:05:31.394799",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED14",
+        "trust_score": 64.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.71789804112785,
+        "longitude": -74.0031924206965,
+        "last_used": "2026-03-07T01:54:31.394805",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 16.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (140 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.72425891867101,
+        "longitude": -74.00442133222872,
+        "last_used": "2026-03-02T22:26:31.394812",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (112 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.71106072893533,
+        "longitude": -74.02093588419238,
+        "last_used": "2026-03-10T02:30:31.394818",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (88 MB)"
+        ],
+        "latitude": 40.71879802636848,
+        "longitude": -74.00804093263724,
+        "last_used": "2026-02-23T03:32:31.394824",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (67 MB)"
+        ],
+        "latitude": 40.70672854556721,
+        "longitude": -73.99234315682993,
+        "last_used": "2026-02-23T22:38:31.394832",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED03",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.701608581108346,
+        "longitude": -74.00975558426327,
+        "last_used": "2026-02-26T04:16:31.394838",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED12",
+        "trust_score": 16.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (66 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 5)"
+        ],
+        "latitude": 40.72389674366904,
+        "longitude": -74.01515067397298,
+        "last_used": "2026-03-04T12:37:31.394844",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (117 MB)"
+        ],
+        "latitude": 40.71234229089193,
+        "longitude": -74.00575216449123,
+        "last_used": "2026-02-24T14:24:31.394853",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (91 MB)"
+        ],
+        "latitude": 40.71971722290581,
+        "longitude": -74.01811025172191,
+        "last_used": "2026-02-24T00:28:31.394859",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (70 MB)"
+        ],
+        "latitude": 40.70299057862424,
+        "longitude": -74.00440658484442,
+        "last_used": "2026-02-17T12:26:31.394867",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 60.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (65 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.70476857378091,
+        "longitude": -74.00076950189653,
+        "last_used": "2026-02-16T19:04:31.394874",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (140 MB)"
+        ],
+        "latitude": 40.72344549237808,
+        "longitude": -74.01265591157221,
+        "last_used": "2026-03-06T07:13:31.394881",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (114 MB)"
+        ],
+        "latitude": 40.70387293150239,
+        "longitude": -74.00574734560415,
+        "last_used": "2026-02-28T13:37:31.394887",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED14",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (69 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.71558055639721,
+        "longitude": -74.0010492003286,
+        "last_used": "2026-03-05T10:55:31.394893",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (84 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.713741028431144,
+        "longitude": -74.00281225660203,
+        "last_used": "2026-02-18T22:07:31.394900",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (81 MB)"
+        ],
+        "latitude": 40.702255631159744,
+        "longitude": -74.00571861053099,
+        "last_used": "2026-02-13T01:50:31.394906",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (80 MB)"
+        ],
+        "latitude": 40.7068218582162,
+        "longitude": -74.00982136763832,
+        "last_used": "2026-02-14T04:22:31.394913",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 45.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (67 MB)"
+        ],
+        "latitude": 40.70617047558276,
+        "longitude": -74.01615828727593,
+        "last_used": "2026-02-27T07:46:31.394919",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (148 MB)"
+        ],
+        "latitude": 40.72396009811906,
+        "longitude": -74.01121050667184,
+        "last_used": "2026-03-09T15:20:31.394926",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (115 MB)"
+        ],
+        "latitude": 40.713966506755945,
+        "longitude": -74.00235100493109,
+        "last_used": "2026-02-13T04:10:31.394932",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED14",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (143 MB)"
+        ],
+        "latitude": 40.71066260470757,
+        "longitude": -74.00597546230952,
+        "last_used": "2026-02-28T05:41:31.394938",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (120 MB)"
+        ],
+        "latitude": 40.702253048840106,
+        "longitude": -74.01254731599008,
+        "last_used": "2026-03-08T12:17:31.394944",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (89 MB)"
+        ],
+        "latitude": 40.704904672235536,
+        "longitude": -74.02034793323541,
+        "last_used": "2026-02-23T15:19:31.394951",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED13",
+        "trust_score": 30.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (91 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 2)"
+        ],
+        "latitude": 40.69827852769695,
+        "longitude": -74.01151466499837,
+        "last_used": "2026-02-26T20:30:31.394958",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 27.4,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (148 MB)"
+        ],
+        "latitude": 40.72608652946578,
+        "longitude": -73.99388082298775,
+        "last_used": "2026-03-05T11:36:31.394964",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED13",
+        "trust_score": 60.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (120 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 2)"
+        ],
+        "latitude": 40.70665510689209,
+        "longitude": -74.01699686971912,
+        "last_used": "2026-02-22T14:16:31.394971",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72348934109972,
+        "longitude": -74.0193315932717,
+        "last_used": "2026-03-03T21:42:31.394977",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED10",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (108 MB)"
+        ],
+        "latitude": 40.69898681464826,
+        "longitude": -74.02060259023435,
+        "last_used": "2026-02-14T20:18:31.394983",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 67.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.70324715472919,
+        "longitude": -73.99149283520264,
+        "last_used": "2026-02-17T19:02:31.394990",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED12",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (83 MB)"
+        ],
+        "latitude": 40.70219372995863,
+        "longitude": -74.01400093175997,
+        "last_used": "2026-02-27T14:30:31.394996",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (83 MB)"
+        ],
+        "latitude": 40.7175254527072,
+        "longitude": -74.00336935529637,
+        "last_used": "2026-03-03T22:03:31.395002",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (70 MB)"
+        ],
+        "latitude": 40.70281516349421,
+        "longitude": -74.018610068611,
+        "last_used": "2026-03-09T00:24:31.395009",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (106 MB)"
+        ],
+        "latitude": 40.70868747185534,
+        "longitude": -74.00652736410188,
+        "last_used": "2026-02-27T00:16:31.395015",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (140 MB)"
+        ],
+        "latitude": 40.71771346297546,
+        "longitude": -74.00966514886738,
+        "last_used": "2026-02-19T09:13:31.395022",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (123 MB)"
+        ],
+        "latitude": 40.720368556401844,
+        "longitude": -74.01266473097023,
+        "last_used": "2026-02-24T20:42:31.395028",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (135 MB)"
+        ],
+        "latitude": 40.71227058174424,
+        "longitude": -74.01060790067959,
+        "last_used": "2026-02-15T00:12:31.395035",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (94 MB)"
+        ],
+        "latitude": 40.72667043772248,
+        "longitude": -74.01594457469338,
+        "last_used": "2026-02-20T19:29:31.395041",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (69 MB)"
+        ],
+        "latitude": 40.71040983723574,
+        "longitude": -74.00109397572398,
+        "last_used": "2026-02-23T09:08:31.395048",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72421322432976,
+        "longitude": -74.00996006187815,
+        "last_used": "2026-02-14T16:30:31.395054",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 60.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (61 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.69917059332718,
+        "longitude": -74.00954986917206,
+        "last_used": "2026-03-05T12:02:31.395062",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED13",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (111 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 5)"
+        ],
+        "latitude": 40.71178289892886,
+        "longitude": -74.01200555948877,
+        "last_used": "2026-03-02T17:11:31.395068",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (109 MB)"
+        ],
+        "latitude": 40.71240234370474,
+        "longitude": -74.0164772965302,
+        "last_used": "2026-03-10T07:41:31.395075",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 39.5,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (51 MB)"
+        ],
+        "latitude": 40.70361185551232,
+        "longitude": -73.99147810935044,
+        "last_used": "2026-03-08T10:00:31.395081",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED04",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (75 MB)"
+        ],
+        "latitude": 40.716219633684865,
+        "longitude": -74.0059787271676,
+        "last_used": "2026-03-06T05:05:31.395090",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED10",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (58 MB)"
+        ],
+        "latitude": 40.71216129009319,
+        "longitude": -74.01799875836161,
+        "last_used": "2026-02-23T04:51:31.395097",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (104 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.72712221613067,
+        "longitude": -74.01448512884889,
+        "last_used": "2026-02-27T09:01:31.395103",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 23.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (130 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.70295947175003,
+        "longitude": -73.99619934447836,
+        "last_used": "2026-02-14T20:55:31.395110",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED02",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.72583582428534,
+        "longitude": -74.02079075285766,
+        "last_used": "2026-03-02T12:43:31.395116",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.70916962810725,
+        "longitude": -73.99906455075232,
+        "last_used": "2026-03-12T17:45:31.395122",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED08",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (148 MB)"
+        ],
+        "latitude": 40.71695836405564,
+        "longitude": -74.00840001545218,
+        "last_used": "2026-03-12T09:38:31.395129",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED15",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.7142244414796,
+        "longitude": -74.01804405102926,
+        "last_used": "2026-03-08T03:40:31.395135",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED11",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.7195600537677,
+        "longitude": -73.99330202649223,
+        "last_used": "2026-02-13T01:22:31.395142",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED14",
+        "trust_score": 27.4,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (136 MB)"
+        ],
+        "latitude": 40.715189410873286,
+        "longitude": -73.99351415229026,
+        "last_used": "2026-02-22T01:51:31.395149",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED01",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (132 MB)"
+        ],
+        "latitude": 40.72085487933305,
+        "longitude": -74.01425842422512,
+        "last_used": "2026-02-17T19:47:31.395155",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (117 MB)"
+        ],
+        "latitude": 40.71743472894303,
+        "longitude": -74.01228121963788,
+        "last_used": "2026-02-11T02:52:31.395162",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (113 MB)"
+        ],
+        "latitude": 40.70199490144485,
+        "longitude": -74.01708246387274,
+        "last_used": "2026-02-13T02:25:31.395168",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71105546919275,
+        "longitude": -74.02002024437029,
+        "last_used": "2026-03-05T18:35:31.395174",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72200129536131,
+        "longitude": -73.99150141256031,
+        "last_used": "2026-02-12T14:13:31.395181",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED02",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71518573693352,
+        "longitude": -74.00228308882696,
+        "last_used": "2026-02-14T10:21:31.395187",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (54 MB)"
+        ],
+        "latitude": 40.718179114383105,
+        "longitude": -73.99528860182268,
+        "last_used": "2026-02-20T14:27:31.395194",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED10",
+        "trust_score": 67.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)"
+        ],
+        "latitude": 40.70615694085668,
+        "longitude": -73.99360598178244,
+        "last_used": "2026-02-28T13:27:31.395200",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED07",
+        "trust_score": 56.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (112 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.705857770432964,
+        "longitude": -73.99594532398835,
+        "last_used": "2026-03-10T19:01:31.395207",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED09",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (148 MB)"
+        ],
+        "latitude": 40.71171976505174,
+        "longitude": -74.01823107571211,
+        "last_used": "2026-03-11T12:41:31.395213",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (119 MB)"
+        ],
+        "latitude": 40.72499759323155,
+        "longitude": -74.0034467961729,
+        "last_used": "2026-03-10T12:14:31.395220",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (137 MB)"
+        ],
+        "latitude": 40.7029736921691,
+        "longitude": -74.00011031458432,
+        "last_used": "2026-02-12T22:12:31.395226",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 47.2,
+        "risk": [
+            "Network Anomaly: High Data Transfer (86 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 23)"
+        ],
+        "latitude": 40.71272141389651,
+        "longitude": -73.9987070921921,
+        "last_used": "2026-02-17T16:19:31.395232",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED11",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (57 MB)"
+        ],
+        "latitude": 40.70969249793417,
+        "longitude": -73.99137204057571,
+        "last_used": "2026-02-26T14:02:31.395238",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED05",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.70319031850915,
+        "longitude": -73.99131546570858,
+        "last_used": "2026-03-10T13:01:31.395245",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED01",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.721569318031804,
+        "longitude": -74.00135239089585,
+        "last_used": "2026-03-01T16:34:31.395252",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (97 MB)"
+        ],
+        "latitude": 40.69922698196412,
+        "longitude": -73.99216368522995,
+        "last_used": "2026-03-07T01:13:31.395258",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED15",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.7082261672808,
+        "longitude": -74.002698033734,
+        "last_used": "2026-03-02T01:29:31.395264",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 56.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (76 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.70523052954972,
+        "longitude": -73.99435801218227,
+        "last_used": "2026-03-11T15:57:31.395273",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED15",
+        "trust_score": 45.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (84 MB)"
+        ],
+        "latitude": 40.69850606464519,
+        "longitude": -74.01880808231279,
+        "last_used": "2026-02-14T10:45:31.395280",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72313694814809,
+        "longitude": -73.99722489748338,
+        "last_used": "2026-03-07T15:08:31.395288",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED03",
+        "trust_score": 72.5,
+        "risk": [
+            "Network Anomaly: High Data Transfer (96 MB)"
+        ],
+        "latitude": 40.69873359751161,
+        "longitude": -73.99490282689975,
+        "last_used": "2026-02-22T15:45:31.395294",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED01",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (63 MB)"
+        ],
+        "latitude": 40.72231224017338,
+        "longitude": -73.99879557430525,
+        "last_used": "2026-03-07T05:38:31.395301",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED15",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (108 MB)"
+        ],
+        "latitude": 40.71247403038281,
+        "longitude": -74.01647352200533,
+        "last_used": "2026-03-01T07:12:31.395307",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (99 MB)"
+        ],
+        "latitude": 40.72000877874044,
+        "longitude": -74.01064233603752,
+        "last_used": "2026-03-12T09:35:31.395313",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (131 MB)"
+        ],
+        "latitude": 40.712235068363924,
+        "longitude": -74.01285510374663,
+        "last_used": "2026-02-14T06:55:31.395320",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 2)"
+        ],
+        "latitude": 40.71218610959537,
+        "longitude": -74.0024328689802,
+        "last_used": "2026-02-17T02:14:31.395326",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (93 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 0)"
+        ],
+        "latitude": 40.71019374816321,
+        "longitude": -74.00908996101118,
+        "last_used": "2026-02-20T20:55:31.395333",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 47.2,
+        "risk": [
+            "Network Anomaly: High Data Transfer (53 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 0)"
+        ],
+        "latitude": 40.713716610322415,
+        "longitude": -73.99805998644091,
+        "last_used": "2026-02-11T03:50:31.395339",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED03",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (70 MB)"
+        ],
+        "latitude": 40.717063712673415,
+        "longitude": -74.00169563691004,
+        "last_used": "2026-03-07T03:58:31.395345",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 2)"
+        ],
+        "latitude": 40.71814197311409,
+        "longitude": -74.01978733564977,
+        "last_used": "2026-02-19T03:43:31.395352",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED08",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (115 MB)"
+        ],
+        "latitude": 40.72769047338433,
+        "longitude": -74.0071993405446,
+        "last_used": "2026-02-13T08:37:31.395358",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (149 MB)"
+        ],
+        "latitude": 40.703707412431456,
+        "longitude": -74.0121427590925,
+        "last_used": "2026-03-07T23:37:31.395364",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.72393846592242,
+        "longitude": -74.02017180874664,
+        "last_used": "2026-03-10T08:11:31.395371",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (59 MB)"
+        ],
+        "latitude": 40.72183884688318,
+        "longitude": -73.9924450316485,
+        "last_used": "2026-02-10T19:47:31.395378",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED05",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.703124183408235,
+        "longitude": -73.9972857582173,
+        "last_used": "2026-02-28T06:42:31.395384",
+        "criticality": 1.0,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED09",
+        "trust_score": 82.0,
+        "risk": [
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.72595539574238,
+        "longitude": -74.0074015750483,
+        "last_used": "2026-02-23T13:53:31.395391",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 52.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (93 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.72150401211697,
+        "longitude": -74.0140752618384,
+        "last_used": "2026-02-20T06:48:31.395397",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED09",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.710896015703824,
+        "longitude": -73.99443282716965,
+        "last_used": "2026-02-13T09:06:31.395403",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED11",
+        "trust_score": 47.2,
+        "risk": [
+            "Network Anomaly: High Data Transfer (112 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.71025063660422,
+        "longitude": -73.99144698191041,
+        "last_used": "2026-02-10T21:18:31.395410",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED07",
+        "trust_score": 67.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (73 MB)"
+        ],
+        "latitude": 40.7164118852982,
+        "longitude": -73.9995397394786,
+        "last_used": "2026-03-07T20:08:31.395418",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED07",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (130 MB)"
+        ],
+        "latitude": 40.72769055625975,
+        "longitude": -74.00790575624863,
+        "last_used": "2026-03-03T06:00:31.395425",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.704906705062484,
+        "longitude": -74.00087798989348,
+        "last_used": "2026-02-22T19:37:31.395431",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 30.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (91 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 1)"
+        ],
+        "latitude": 40.702466108038166,
+        "longitude": -74.00727143825601,
+        "last_used": "2026-03-05T02:26:31.395438",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED03",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71303255437337,
+        "longitude": -74.0161701020213,
+        "last_used": "2026-02-23T04:18:31.395444",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 34.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (81 MB)"
+        ],
+        "latitude": 40.72111317429285,
+        "longitude": -74.00687089035573,
+        "last_used": "2026-03-04T11:51:31.395451",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED07",
+        "trust_score": 60.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (131 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 4)"
+        ],
+        "latitude": 40.697827263610854,
+        "longitude": -74.01452979299033,
+        "last_used": "2026-03-13T16:31:31.395457",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED04",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.718020821602764,
+        "longitude": -73.99811925665558,
+        "last_used": "2026-03-09T13:58:31.395463",
+        "criticality": 1.2,
+        "exposure": 1.1
+    },
+    {
+        "device": "AED04",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (68 MB)"
+        ],
+        "latitude": 40.71155028430016,
+        "longitude": -74.01294508429487,
+        "last_used": "2026-02-10T22:06:31.395470",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED12",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.706934867241905,
+        "longitude": -74.01385342334305,
+        "last_used": "2026-02-13T12:35:31.395478",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED01",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (138 MB)"
+        ],
+        "latitude": 40.71790060513419,
+        "longitude": -74.01730112557875,
+        "last_used": "2026-03-13T00:23:31.395485",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 30.0,
+        "risk": [
+            "Policy Violation (Unauthorized Cloud/Server)",
+            "Network Anomaly: High Data Transfer (92 MB)",
+            "Behavior Drift: Abnormal Activity Time (Hour 3)"
+        ],
+        "latitude": 40.70096084042011,
+        "longitude": -74.00739542486285,
+        "last_used": "2026-03-12T11:07:31.395491",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED02",
+        "trust_score": 75.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (139 MB)"
+        ],
+        "latitude": 40.70460384566298,
+        "longitude": -74.0157484126772,
+        "last_used": "2026-03-08T16:14:31.395498",
+        "criticality": 1.0,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED05",
+        "trust_score": 100.0,
+        "risk": [],
+        "latitude": 40.71483445749797,
+        "longitude": -74.00324487583775,
+        "last_used": "2026-02-25T18:54:31.395504",
+        "criticality": 1.2,
+        "exposure": 1.0
+    },
+    {
+        "device": "AED06",
+        "trust_score": 70.0,
+        "risk": [
+            "Network Anomaly: High Data Transfer (138 MB)"
+        ],
+        "latitude": 40.716819103586914,
+        "longitude": -74.00696136192892,
+        "last_used": "2026-03-08T03:11:31.395512",
+        "criticality": 1.2,
+        "exposure": 1.0
+    }
+]
