@@ -28,13 +28,7 @@ unsafe_allow_html=True
 # -----------------------------
 # DATABASE CONNECTION
 # -----------------------------
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Nsravani@123",
-    database="aed_system"
-)
-
+df = pd.read_csv("devices.csv")
 query = "SELECT * FROM aed_data ORDER BY timestamp DESC"
 df = pd.read_sql(query, db)
 
